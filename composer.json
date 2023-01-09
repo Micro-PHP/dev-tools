@@ -1,0 +1,30 @@
+{
+    "name": "micro/dev-tools",
+    "description": "Developer tools for Micro PHP Framework",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stanislau.Komar",
+            "email": "stanislau_komar@epam.com"
+        },
+        {
+            "name": "Oleksii Bulba",
+            "email": "oleksii_bulba@epam.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "ergebnis/composer-normalize": "^2.29",
+        "phpmd/phpmd": "^2.13",
+        "squizlabs/php_codesniffer": "^3.7",
+        "friendsofphp/php-cs-fixer": "^3.13",
+        "vimeo/psalm": "^5.4",
+        "phpstan/phpstan": "^1.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
